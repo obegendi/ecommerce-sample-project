@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="Moq" Version="4.12.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ApplicationLayer\ApplicationServices\ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\src\CampaignManagement\CampaignManagement.Core\CampaignManagement.Core.csproj" />
+    <ProjectReference Include="..\..\src\EcommerceSample.Data\EcommerceSample.Data.csproj" />
+    <ProjectReference Include="..\..\src\EcommerceSample.TimeSimulator\EcommerceSample.TimeSimulator.csproj" />
+    <ProjectReference Include="..\..\src\Helpers\CommandHandlersStrategies\CommandHandlers.csproj" />
+    <ProjectReference Include="..\..\src\Helpers\ValidationModule\ValidationModule.csproj" />
+    <ProjectReference Include="..\..\src\OrderManagement\OrderManagement.Core\OrderManagement.Core.csproj" />
+    <ProjectReference Include="..\..\src\ProductManagement\ProductManagement.Core\ProductManagement.Core.csproj" />
+    <ProjectReference Include="..\..\src\SharedKernel\SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>

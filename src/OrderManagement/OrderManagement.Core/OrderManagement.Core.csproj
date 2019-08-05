@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CampaignManagement\CampaignManagement.Core\CampaignManagement.Core.csproj" />
+    <ProjectReference Include="..\..\ProductManagement\ProductManagement.Core\ProductManagement.Core.csproj" />
+    <ProjectReference Include="..\..\SharedKernel\SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
